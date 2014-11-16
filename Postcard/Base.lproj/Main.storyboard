@@ -105,6 +105,15 @@
                                     <rect key="frame" x="16" y="298" width="284" height="30"/>
                                 </variation>
                             </textField>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hqa-Pk-FXc">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="180" width="166" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -114,6 +123,7 @@
                                 <exclude reference="THH-az-9J4"/>
                                 <exclude reference="wIZ-ZD-NRd"/>
                                 <exclude reference="hq5-5l-NsH"/>
+                                <exclude reference="Hqa-Pk-FXc"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -123,6 +133,7 @@
                                 <include reference="THH-az-9J4"/>
                                 <include reference="wIZ-ZD-NRd"/>
                                 <include reference="hq5-5l-NsH"/>
+                                <include reference="Hqa-Pk-FXc"/>
                             </mask>
                         </variation>
                     </view>
@@ -130,6 +141,7 @@
                         <outlet property="EnterMessageTextField" destination="hq5-5l-NsH" id="imy-2Q-x9L"/>
                         <outlet property="EnterNameTextField" destination="deK-Gl-YEM" id="IA1-N9-A8j"/>
                         <outlet property="MessageLabel" destination="THH-az-9J4" id="MUQ-UK-X4y"/>
+                        <outlet property="NameLabel" destination="Hqa-Pk-FXc" id="6DB-d2-gUx"/>
                         <outlet property="mailButton" destination="wIZ-ZD-NRd" id="MFB-yv-wx9"/>
                     </connections>
                 </viewController>
